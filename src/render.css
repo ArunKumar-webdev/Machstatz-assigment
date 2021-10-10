@@ -1,0 +1,67 @@
+.Users{
+  background-color: green;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  scroll-snap-align: start;
+  display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-container-2, .flex-box-rps{
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.username{
+  display: flex;
+  border: 1px solid white;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 80px;
+  margin: 5px;
+  text-align: center;
+  position:relative;
+  justify-content: space-around;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.avatar {
+  position: inherit;
+  left: 5px;
+  top: 10px;
+}
+.circle {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position:absolute;
+}
+.delete {
+  display: flex;
+  position:absolute;
+}
+.text {
+  margin: auto;
+}
+.name {
+  position:absolute;
+}
+.box{
+  border:1px solid red;
+  position:absolute;
+  width:20px;
+  height:20px;    
+}
+
+.top{top:20%}
+.left{left:5%;}
+.ntop{top:10%}
+.nleft{left:30%;}
+.dtop{top:1%}
+.dleft{left:82%;}
